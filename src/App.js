@@ -164,14 +164,14 @@ function App() {
       </Modal>
       <div className="app__header">
         <img
-          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+          src="https://previews.123rf.com/images/avectors/avectors1902/avectors190200089/125306820-paw-print-trail-on-white-background-vector-cat-or-dog-pawprint-walk-line-path-pattern-background.jpg"
           alt=""
           className="app__headerImage"
         />
         {user ? (
           <Button onClick={() => auth.signOut()}>Logout</Button>
         ) : (
-          <div className="">
+          <div className="app_headerLinks">
             <Button onClick={() => setOpenSignIn(true)}>Login</Button>
             <Button onClick={() => setOpen(true)}>Sign Up</Button>
           </div>
